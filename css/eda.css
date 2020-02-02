@@ -1,0 +1,38 @@
+.eda_input[type="text"] {
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #a3c9e3;
+	padding-left: 5px;
+	height: 20px;
+}
+
+.eda_input[type="text"]:hover,
+.eda_input[type="text"]:focus {
+	box-shadow: 0 0 3px 1px #a3c9e3;
+}
+
+.eda_input[type="text"].invalid {
+	border-color: red;
+}
+
+.eda_input[type="text"].invalid:hover {
+	box-shadow: 0 0 3px 1px red;
+}
+
+.eda_select {
+	padding-left: 5px;
+	height: 27px;
+}
+
+.eda_select:hover,
+.eda_select:focus {
+	box-shadow: 0 0 3px 1px #a3c9e3;
+}
+
+.eda_select.invalid {
+	box-shadow: 0 0 1px 1px red;
+}
+
+.eda_select.invalid:hover {
+	box-shadow: 0 0 3px 1px red;
+}

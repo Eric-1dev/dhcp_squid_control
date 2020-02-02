@@ -1,0 +1,150 @@
+* {
+	font-family:arial,sans-serif;
+	font-size:10pt;
+}
+
+html {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #337eb1;
+}
+
+body {
+	cursor: default;
+	margin: 0px;
+	height: 100%;
+}
+
+div#main_menu {
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-left: 7px solid;
+	border-right: 7px solid;
+	border-bottom: 7px solid;
+	border-top: 0px;
+	background: linear-gradient(to top, #f2f2f2, #d7d7d7);
+	border-radius: 0px 0px 10px 10px;
+	border-color: #a3c9e3;
+	padding: 7px;
+}
+
+div#work_space {
+	position: absolute;
+	top: 78px;
+	bottom: 7px;
+	left: 10px;
+	right: 10px;
+	border: 7px solid;
+	background-color: #fbfbfb;
+	border-radius: 10px;
+	border-color: #a3c9e3;
+	padding: 7px;
+}
+
+div#tbl_menu {
+	position: relative;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 6px 6px 0px 0px;
+	border-color: #d9d9d9;
+	padding: 5px;	
+}
+
+div#users_tbl {
+	position: inherit;
+	top: 48px;
+	bottom: 7px;
+	left: 7px;
+	right: 7px;
+	overflow: auto;
+	border: 1px solid;
+	border-radius: 0px 0px 6px 6px;
+	border-color: #d9d9d9;
+	padding: 5px;
+}
+
+div#blocker {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+	opacity: 0.75;
+}
+
+div#popup_container {
+	position: fixed;
+	border: 7px solid;
+	background-color: #fbfbfb;
+	border-radius: 10px;
+	border-color: #a3c9e3;
+	padding: 0px;
+}
+
+div#popup_header {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 5px;
+	border: 1px solid;
+	border-color: #d9d9d9;
+	background-color: #eeeeee;
+	cursor: move;
+}
+
+div#popup_title {
+	text-align: center;
+	padding: 7px;
+}
+
+div#popup_body {
+	padding: 7px;
+}
+
+img#waiting {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+	 	border: 0px;
+	border-radius: 16px;
+}
+
+#message {
+	position: fixed;
+	width: 370px;
+	height: 100px;
+	right: 20px;
+	bottom: -130px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	filter: dropshadow(color=#FFFFFF, offx=1, offy=1);
+}
+
+#message.warning {
+	border: 1px solid #f7c7c9;
+	background: #f9e5e6;
+	color: #c77c7e;
+}
+
+#message.ok {
+	border: 1px solid #7aaffe;
+	background: #edf8ff;
+	color: #61baf7;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}

@@ -1,0 +1,59 @@
+table.generic {
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #d9d9d9;
+	border-collapse: collapse;
+}
+
+table.generic th {
+	border: 1px solid;
+	border-color: #8f979b;
+}
+
+table.generic th.selected {
+	background-color: #c7e1f7;
+}
+
+table.generic th.sort:hover {
+	background-color: #c7e1f7;
+	cursor: pointer;
+}
+
+table.generic td {
+	border-collapse: collapse;
+	border: 1px solid;
+	border-color: #d9d9d9;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 10px;
+}
+
+table.generic td.td_name {
+	border-right: 0;
+}
+
+table.generic td.pictogram {
+	width: 0;
+	border-left: 0;
+}
+
+table.generic tr.header {
+	background-color: #F0F0F0;
+}
+
+table.generic tr.not_header:hover {
+	background-color: #c7e1f7;
+}
+
+tr.lvl0 {
+	background-color: #fce8e8;
+}
+
+tr.lvl2 {
+	background-color: #deffe2;
+}
+
+td.ipAddr {
+	cursor: pointer;
+}
